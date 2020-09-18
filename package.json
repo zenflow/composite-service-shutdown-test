@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "name": "composite-service-shutdown-test",
+  "version": "1.0.0",
+  "description": "Test to see how composite-service library handles shutting down various programs",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint \"**/*.{js,ts,jsx,tsx}\"",
+    "lint-fix": "yarn lint --fix",
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "composite-service": "^0.6.0"
+  },
+  "devDependencies": {
+    "docker-run-kill": "^1.0.2",
+    "eslint": "^7.9.0",
+    "eslint-config-tsdx": "^0.2.0",
+    "nodemon": "^2.0.4"
+  }
+}
